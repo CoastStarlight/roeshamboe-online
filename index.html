@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<h1>Rock paper scisors online!!!!</h1>
-<script src="OnLoad.js"></script>
-<button type="button" class="button" onclick="alert('Hello world!')">player 1</button>
-<button type="button" class="button" onclick="alert('Hello world!')">player 2</button>
-<p><p>
-<button type="button" class="button" onclick="alert('Hello world!')">start game</button>
- 
+  <script runat="server">var test;</script>
+  <h1 id="text"></h1>
+  <button onclick="test = 1;">test 1</button>
+  <button onclick="test = 2;">test 2</button>
+  <script>while(2 > 1) {document.getElementById("text").innerHTML = test;};</script>
 </body>
 </html>
